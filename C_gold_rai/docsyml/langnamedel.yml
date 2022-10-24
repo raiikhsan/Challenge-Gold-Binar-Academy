@@ -1,0 +1,19 @@
+tags:
+  - name: Language name
+consumes:
+- "application/json"
+produces:
+- "application/json"
+parameters:
+  - name: name
+    description: ''
+    in: path
+    required: false
+    type: string
+responses:
+    '200':
+      description: Successful response
+    '400':
+      description: Bad Request
+    '500':
+      description: Internal Server Error
